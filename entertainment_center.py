@@ -106,6 +106,6 @@ good_will_hunting = media.Movie("Good Will Hunting",
 movies = [the_graduate, butch_cassidy, wall_street, citizen_kane,
           american_psycho, good_will_hunting]
 
-
+# Opens fresh_tomatoes.html by using module below.
 
 fresh_tomatoes.open_movies_page(movies)

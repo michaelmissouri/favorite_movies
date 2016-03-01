@@ -1,6 +1,10 @@
 import webbrowser
 
 class Movie():
+    
+    """ The Movie class stores information where you can input your
+        favorite movie data."""
+    
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
         self.storyline = movie_storyline
